@@ -1,0 +1,34 @@
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content_img > img{
+    width: 363px;
+    height: 446px;
+    border-radius: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content_self{
+
+    margin-left: 3%;
+    text-align: left;
+    align-self: center;
+    width: 330px;
+}
+
+.italic_text{
+    font-style: italic;
+    color: rgb(68, 152, 207);
+    font-weight: 500;
+}
+
+.italic_text:hover{
+    font-style: oblique;
+
+    /* font-size: 18px; */
+    /* color: greenyellow; */
+    font-weight: 500;
+}

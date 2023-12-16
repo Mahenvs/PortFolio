@@ -1,0 +1,29 @@
+.about{
+    margin: 120px;
+    margin-top: 0px;
+    
+}
+
+.about_profile{
+    display: flex;
+
+}
+
+.contet_img{
+    display: flex;
+    justify-content: center;
+    
+}
+.contet_img > img{
+    width: 363px;
+    height: 346px;
+    border-radius: 300px;
+    object-fit: cover;
+    object-position: 0px -127px
+}
+
+.contet_img{
+    align-self: center;
+margin: 33px;
+
+}

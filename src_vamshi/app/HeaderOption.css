@@ -1,0 +1,27 @@
+.headerOption{
+  
+}
+.vertical_line{
+    border: 1px solid powderblue;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.vertical_line:last-child(1){
+    display: none;
+}
+/* .headerOption > span:nth-child(2){
+    display: none;
+} */
+.headerOption_title{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.inactive{
+    font-weight: none;
+}
+.active{
+    font-weight: bold;
+}
