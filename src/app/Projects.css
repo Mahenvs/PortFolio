@@ -3,12 +3,7 @@
     justify-content: center;
     }
 
-    .footer{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
 
     .color-purple{
-        color: purple;
+        color: #7e57c2;
     }

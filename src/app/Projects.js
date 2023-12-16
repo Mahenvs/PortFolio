@@ -46,9 +46,6 @@ function Projects() {
                         ))}
                     </div>
                 </div>
-                <div className='footer'>
-                    Image by  &nbsp;<a className='color-purple' href="https://www.freepik.com/free-vector/organic-flat-customer-support-illustration_13184981.htm#query=chat%20support&position=16&from_view=keyword&track=ais&uuid=61a96eb3-5629-40da-93c0-7db01ece75d5">Freepik</a>
-                    </div>
 
 
         </div>

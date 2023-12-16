@@ -1,29 +1,32 @@
 .about{
-    margin: 120px;
-    margin-top: 0px;
-    
-}
-
-.about_profile{
     display: flex;
-
+    justify-content: center;
+    margin-top: 100px;
 }
-
-.contet_img{
-    /* display: flex;
-    justify-content: center; */
-    
-}
-.contet_img > img{
+.content_img > img{
     width: 363px;
-    height: 346px;
+    height: 446px;
     border-radius: 300px;
     object-fit: cover;
-    object-position: -28px -30px
+    object-position: top;
 }
 
-.contet_img{
-    align-self: center;
-margin: 33px;
+.about_self{
 
+    margin-left: 3%;
+    text-align: left;
+    align-self: center;
+    width: 450px;
+}
+
+.italic_text{
+    font-style: italic;
+    color: rgb(68, 152, 207);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.italic_text:hover{
+    font-style: oblique;
+    font-weight: 500;
 }

@@ -6,7 +6,6 @@
 h2{
     width: 200px;
     text-align: left;
-
 }
 
 .resume_header{
@@ -16,6 +15,7 @@ h2{
 .resume_title{
     text-align: left;
     margin-left: 8rem;
+    margin-top: 2rem;
 }
 .content_img1 > img{
     width: 363px;
@@ -27,7 +27,6 @@ h2{
 
 
 .resume{
-    background-color: rgb(248, 247, 247);
-    height: 885px;
-    margin-top: -20px;
+    /* background-color: rgb(248, 247, 247);
+    height: 885px; */
 }

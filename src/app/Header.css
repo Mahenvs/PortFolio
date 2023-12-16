@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(79, 16, 80);
+    background-color:#7e57c2;
     color: white;
 }
 a{
@@ -12,7 +12,6 @@ a{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    /* flex-direction: ; */
 }
 .header_left > h4{
     font-size: 19px;
@@ -25,8 +24,6 @@ a{
 .header_left > span{
     margin-left: 1rem;
     font-size: small;
-    /* display: flex;
-    align-items: center; */
 }
 .laptop_icon{
     padding-left: 5px;
