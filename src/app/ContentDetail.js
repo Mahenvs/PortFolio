@@ -20,11 +20,11 @@ function ContentDetail({ title, startYear, cover_pic,endYear,list_type, contentD
                 {list_title && <li>{list_title}</li>}
                 
                 {list_type && <h3>{list_type}</h3>}
-            {description && <p>{description}{list_type =="Hackathon 2k23" ? <EmojiEventsIcon className="royalBlue"/> : ''}</p>}
+            {description && <p>{description}{list_type === "Hackathon 2k23" ? <EmojiEventsIcon className="royalBlue"/> : ''}</p>}
             </div>)}
             
             {cover_pic && <div className="content_pic">
-            <img src={cover_pic} alt="Profile_Pic" width="310px" height="180px" />
+            {/* <img src={cover_pic} alt="Profile_Pic" width="310px" height="180px" /> */}
             </div>}
         </section>
     )
