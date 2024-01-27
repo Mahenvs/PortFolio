@@ -12,7 +12,7 @@ function About() {
           <span>Looking forward to hearing from you:)</span>
           <h3>Phone</h3>
           <span>unreachable</span>
-          <h3>Email</h3>
+          <h3>Email</h3> 
           <span>mahendrauppari044@gmail.com</span>
           <h3>LinkedIn</h3>
           <Link
