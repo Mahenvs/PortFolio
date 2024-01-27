@@ -69,6 +69,7 @@ h4{
   display: flex;
   justify-content: center;
   flex-basis: 1;
+  gap: 10px;
 }
 #root {
   flex: 1;
