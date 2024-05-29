@@ -1,9 +1,41 @@
 .resume_proj{
     display: flex;
     justify-content: center;
-    }
+}
+.linkButton{
+    cursor: pointer;
+    height: fit-content;
+    align-self: center;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #cfbbf1;
+    color: black;
+    font-weight: 500;
+}
 
-
+.card{
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+.card_section{
+    display: flex;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 25px;
+    justify-content: center;
+}
     .color-purple{
         color: #7e57c2;
     }
