@@ -1,7 +1,8 @@
 .about{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 2%;
 }
 .content_img > img{
     width: 363px;
@@ -13,9 +14,8 @@
 
 .about_self{
 
-    margin-left: 3%;
-    text-align: left;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
     width: 450px;
 }
 
