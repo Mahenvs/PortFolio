@@ -1,9 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import ContentDetail from "./ContentDetail";
 import cover_pic from "../assets/pcb.jpg";
 import "./Projects.css";
-import { Link } from "react-router-dom";
 import Card from "./Card";
 
 function DevProjects() {
@@ -13,17 +11,16 @@ function DevProjects() {
       role_title: "Netflix Clone",
       tech_skills: "React, TailwindCSS",
       description: `A Clone of Netflix application. It includes basic authentication and displays a list of movies. Plays the trailer on click of a movie card if the trailer exists.`,
-      url:"https://netflix-clone-mah.netlify.app"
+      url: "https://playnow-video-stream.netlify.app/login",
     },
     {
       cover_pic: cover_pic,
       role_title: "Meals App",
       tech_skills: "React",
       description: `A Sample Meals Application using React`,
-      url:"https://meals-appl.netlify.app/"
+      url: "https://meals-appl.netlify.app/",
     },
   ];
-
 
   return (
     <div className="">
@@ -34,7 +31,6 @@ function DevProjects() {
           {projects_personal.map((item, index) => (
             <>
               <Card
-
                 key={index}
                 title={item.role_title}
                 contentDetClass="content_detail_proj"
