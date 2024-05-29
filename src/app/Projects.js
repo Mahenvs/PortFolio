@@ -1,28 +1,19 @@
 import React from "react";
 import "./Projects.css";
 import ContentDetail from "./ContentDetail";
-import { useLocation } from "react-router-dom";
-import cover_pic from "../assets/pcb.jpg";
-import RTWMS from "../assets/RTWMS.png";
-import display_pic from "../assets/displays.jpg";
-import tcp_icp from "../assets/tcp_icp.jpg";
-
-import udp from "../assets/udp.jpg";
-import hmu_calibration from "../assets/hmu_calibration.jpg";
-import network_loggers1 from "../assets/network_loggers1.png";
 import "./Projects.css";
 import DevProjects from "./DevProjects";
 
 function Projects() {
   const projects_exp = [
     {
-      cover_pic: cover_pic,
+      // cover_pic: cover_pic,
       role_title: "eClient Application",
       tech_skills: "Angular, PrimeNG, Java, Spring Boot, JPA, Microservices",
       description: `A Web Application, that is built as a comprehensive system which handles claim pre-processing and post processing data. A third party system is used to handle master files of client data, provider data, claim data and preference data, and manage the client data in terms of data entry and maintenance. `,
     },
     {
-      cover_pic: tcp_icp,
+      // cover_pic: tcp_icp,
       role_title: "Chat Services",
       tech_skills: "Angular, Bootstrap, Node.js, Twilio, SQL Server 2008",
       description: `Its an Web Application that is used by the agents in the Call Center for service delivery to customers and partners. 

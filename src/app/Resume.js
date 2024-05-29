@@ -2,9 +2,6 @@ import React from "react";
 import "./Resume.css";
 import ContentDetail from "./ContentDetail";
 import { useLocation } from "react-router-dom";
-import cover_pic from "../assets/pcb.jpg";
-import ImageRender from "./ImageRender";
-import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 export default function Resume() {
   const work_exp = [
     {
@@ -70,16 +67,15 @@ export default function Resume() {
   const location = useLocation();
   console.log(location.pathname);
   const skills = [
-    "Proficient in Angular & React Framework",
+    "Skillful in Typescript, Javascript and NextJS",
+    "Proficient in Angular & React Frameworks",
     `Experience in Creating and Consuming API’s through REST`,
-    "Have Experience in Data Structures & Algorithms",
     "Have Understanding of Twilio and MySQL",
     "Creating Custom and Reusable Components",
-    "Strong understanding of software development methodologies, like Agile",
-    "Worked in Bootstrap, PrimeNG and Angular Material frameworks",
+    "Worked in Bootstrap, PrimeNG, TailwindCSS and MaterialUI frameworks",
     "Thorough in NodeJS and Java",
-    "Have Experience in SCSS",
-    "Software Development Life Cycle (SDLC)",
+    "Experience with external libraries Okta and Firebase",
+    "Strong understanding of software development methodologies, like Agile",
   ];
 
   return (

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './Header.css';
 import HeaderOption from './HeaderOption';
 import { Outlet, Link } from "react-router-dom";
-import { Avatar } from '@mui/material';
-import cover_pic from "../assets/about_pic.jpg";
 import MenuIcon from '@mui/icons-material/Menu';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import { useMediaQuery } from 'react-responsive'

@@ -1,20 +1,17 @@
-import React from "react";
-import "./Projects.css";
-import cover_pic from "../assets/pcb.jpg";
 import "./Projects.css";
 import Card from "./Card";
 
 function DevProjects() {
   const projects_personal = [
     {
-      cover_pic: cover_pic,
+      // cover_pic: cover_pic,
       role_title: "Netflix Clone",
       tech_skills: "React, TailwindCSS",
       description: `A Clone of Netflix application. It includes basic authentication and displays a list of movies. Plays the trailer on click of a movie card if the trailer exists.`,
       url: "https://playnow-video-stream.netlify.app/login",
     },
     {
-      cover_pic: cover_pic,
+      // cover_pic: cover_pic,
       role_title: "Meals App",
       tech_skills: "React",
       description: `A Sample Meals Application using React`,
